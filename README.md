@@ -4,7 +4,7 @@ This repo groups a set of MLOps best practices
 # DataOps Best Practices
 
 1 - Document data structures and transformations to enhance comprehension and foster knowledge sharing.
-- Automate data cataloging and regularly capture metadata from data and ML assets to increase their adoption (e.g. through Feature Store).
+1 - Automate data cataloging and regularly capture metadata from data and ML assets to increase their adoption (e.g. through Feature Store).
 - Unify data quality management through a single medium, providing a holistic view of data assets, to identify and address data quality issues.
 - Utilize Delta format exclusively for data versioning and checkpointing to enable easy rollback in case of data corruption.
 
