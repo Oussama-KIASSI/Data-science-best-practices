@@ -1,6 +1,9 @@
 # Data Science best practices
 This repository provides comprehensive guidance for Python and MLOps (DataOps, DevOps, and ModelOps) best practices. These practices collectively aim to enhance efficiency, maintainability, scalability, and reliability across data-centric projects.
 
+## Contents
+1. [Python best practices](./python.md)
+2. [MLOps best practices](./mlops.md)
 
 ## References
 ### Databricks
