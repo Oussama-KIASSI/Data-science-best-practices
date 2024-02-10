@@ -252,6 +252,7 @@ y = 20
 z = x + y
 print(z)
 
+### Separate Blocks with Comments
 ## Separate paragraphs inside a block comment by a line containing a single #
 """
 This is a block comment.

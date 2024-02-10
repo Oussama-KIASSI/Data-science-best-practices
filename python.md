@@ -7,8 +7,7 @@
     - Simplify solutions and understand the limits of simplicity.
     - Complex problems may require complex solutions.
 
-3. **Correct Broken Code Immediately**:
-    - Fix broken code as soon as it's detected to prevent future application failures.
+3. **Correct Broken Code Immediately** to prevent future application failures.
 
 4. [**Use the Right Comparator**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L28).
 
@@ -16,8 +15,7 @@
 
 6. [**Annotate Python Code with Type Hints**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 
-7. **Avoid Using** `+` **and** `+=` **Operators for String Accumulation**:
-    - Using these operators within a loop can lead to quadratic running time.
+7. [**Avoid Using** `+` **and** `+=` **Operators for String Accumulation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35) (as they may lead to quadratic running time).
 
 8. [**Avoid Mutable Global State**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L24).
 
@@ -26,8 +24,7 @@
 10. **Perform Autonomous Code Quality Check before Deployment**.
 
 # Object-oriented Programming
-1. **Use Object-oriented Programming When Necessary**:
-    - Choose OOP over functional programming when strong typing, inheritance, or a stateful system is required.
+1. **Use Object-oriented Programming When Necessary** (strong typing, inheritance, or a stateful system is required.)
 
 2. **Conventions for Methods**:
     - Use `self` for instance methods' first argument.
@@ -39,16 +36,16 @@
 # Functional Programming
 1. **Prefer** `def` **Over** `lambda` **Assignments**.
 2. **Be Consistent in Return Statements**.
-3. **Use Keyword Arguments Whenever Possible**.
-4. **Use Immutable Default Arguments**.
+3. [**Use Keyword Arguments Whenever Possible**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
+4. [**Use Immutable Default Arguments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 5. **Prefer Small and Focused Functions**.
 
 # Environment Management
-1. **Group Imports at the Beginning**.
+1. [**Group Imports at the Beginning**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 2. **Sort Libraries for Readability**.
 3. **Avoid Importing Everything from a Package**.
-4. **Use Absolute Import for Single Function Imports**.
-5. **Use Relative Import for Long Absolute Paths**.
+4. [**Use Absolute Import for Single Function Imports**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
+5. [**Use Relative Import for Long Absolute Paths**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 
 # Error Handling
 1. **Handle Exceptions Within Functions/Methods**.
@@ -65,26 +62,11 @@
 1. **Use Grammatically Correct Variable Names**.
 2. **Handle Conflicting Names with Underscores**.
 3. **Keep One Statement per Line**.
-4. **Enclose Long Lines and Text**:
-    - Long lines exceeding 79 characters (and 72 for docstrings/comments) should be enclosed in parenthesis and split.
-5. **Use Blank Lines for Separation**:
-    - Surround top-level functions and class definitions with two blank lines.
-    - Surround method definitions inside classes by single blank lines.
-    - Surround groups of related functions by single blank lines.
-    - Surround groups of similar category libraries by single blank lines.
-    - Surround logical sections inside functions by single blank lines.
-6. **Avoid Extraneous Whitespace**:
-    - Inside parentheses, brackets, or braces.
-    - Between a trailing comma and a following close parenthesis.
-    - Immediately before a comma, semicolon, or colon.
-    - Immediately before the open parenthesis that starts the argument list of a function call.
-    - Immediately before the open parenthesis that starts an indexing or slicing.
-    - Around an assignment operator but not a keyword argument or a default value for an unannotated function parameter.
-    - At the end of statements.
+4. **Enclose Long Lines and Text** exceeding 79 characters (and 72 for docstrings/comments) in parenthesis and split.
+5. [**Use Blank Lines for Separation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
+6. [**Avoid Extraneous Whitespace**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 8. **Use Trailing Comma for Tuples, Lists, and Imports**.
-9. **Separate Blocks with Comments**:
-    - Separate paragraphs inside a block comment by a line containing a single `#`.
-    - Separate inline comments by at least two spaces from the statement.
+9. [**Separate Blocks with Comments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 10. **Use Short Variable Names for Math-heavy Code**.
 11. **Use Single Character Names for Specific Cases**:
     - Counters or iterators (e.g., i, j, k, v, et al.).
@@ -97,12 +79,12 @@
 3. **Update Comments with Code Changes**.
 4. **Format Docstrings Properly**:
     - Put the `"""` that ends a multiline docstring should be on a line by itself.
-5. **Use Args, Attributes, Returns, and Raises Sections**:
+5. [**Use Args, Attributes, Returns, and Raises Sections**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35):
     - Args for functions and Attributes for classes to list each parameter by name followed by their description.
     - Returns to describe the semantics of the return value, including any type information not provided by the type annotation.
     - Raises to list all exceptions that are relevant to the interface followed by a description.
 
-# Naming Conventions (Table)
+# Naming Conventions
 | Component           | Naming Convention                | Example            |
 |---------------------|----------------------------------|--------------------|
 | Package             | Snake Case                       | my_package         |
@@ -119,7 +101,7 @@
 | Variable            | Snake Case                       | my_variable        |
 | Constant            | Screaming Snake Case             | MAX_VALUE          |
 
-# Data Structure (Table)
+# Data Structure
 | Category    | Data Structure | Description                              | Example                        | Space Complexity | Time Complexity                    |
 |-------------|----------------|------------------------------------------|--------------------------------|------------------|------------------------------------|
 | Linear      | Array          | Collection of elements indexed by integers | [1, 2, 3, 4, 5,]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
