@@ -10,24 +10,18 @@
 3. **Correct Broken Code Immediately**:
     - Fix broken code as soon as it's detected to prevent future application failures.
 
-4. **Use the Right Comparator**:
-    - Use appropriate methods like `.startswith()` and `.endswith()` instead of string slicing.
-    - Use `isinstance()` for type checking.
-    - Use implicit false if possible.
-    - Use `is` or `is not` to compare singletons like `None`.
-    - Prefer using `is not` operator over `not ... is`.
+4. [**Use the Right Comparator**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L28).
 
-5. **Use Conditional Expressions**:
-    - Employ conditional expressions for simple cases.
+5. [**Use Conditional Expressions for simple cases**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L27).
 
-6. **Annotate Python Code with Type Hints**.
+6. [**Annotate Python Code with Type Hints**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L30-L35).
 
 7. **Avoid Using** `+` **and** `+=` **Operators for String Accumulation**:
     - Using these operators within a loop can lead to quadratic running time.
 
-8. **Avoid Mutable Global State**.
+8. [**Avoid Mutable Global State**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L24).
 
-9. **Use Context Managers to securely manage external resources**.
+9. [**Use Context Managers to securely manage external resources**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/0bcce0b809b4cb5ae01e29deafc8ca37dc2a5cb9/python.py#L1-L24).
 
 10. **Perform Autonomous Code Quality Check before Deployment**.
 
@@ -72,7 +66,7 @@
 2. **Handle Conflicting Names with Underscores**.
 3. **Keep One Statement per Line**.
 4. **Enclose Long Lines and Text**:
-    - Long lines exceeding 79 characters and 72 characters for text should be enclosed in parenthesis and split.
+    - Long lines exceeding 79 characters (and 72 for docstrings/comments) should be enclosed in parenthesis and split.
 5. **Use Blank Lines for Separation**:
     - Surround top-level functions and class definitions with two blank lines.
     - Surround method definitions inside classes by single blank lines.
@@ -85,11 +79,9 @@
     - Immediately before a comma, semicolon, or colon.
     - Immediately before the open parenthesis that starts the argument list of a function call.
     - Immediately before the open parenthesis that starts an indexing or slicing.
-    - Around an assignment operator to align it with another operator.
+    - Around an assignment operator but not a keyword argument or a default value for an unannotated function parameter.
     - At the end of statements.
-7. **Surround Operators with Whitespace**:
-    - Don’t use spaces around the `=` sign when used to indicate a keyword argument or a default value for an unannotated function parameter.
-8. **Use Trailing Comma for Lists and Imports**.
+8. **Use Trailing Comma for Tuples, Lists, and Imports**.
 9. **Separate Blocks with Comments**:
     - Separate paragraphs inside a block comment by a line containing a single `#`.
     - Separate inline comments by at least two spaces from the statement.
@@ -130,14 +122,14 @@
 # Data Structure (Table)
 | Category    | Data Structure | Description                              | Example                        | Space Complexity | Time Complexity                    |
 |-------------|----------------|------------------------------------------|--------------------------------|------------------|------------------------------------|
-| Linear      | Array          | Collection of elements indexed by integers | [1, 2, 3, 4, 5]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
-|             | Tuple          | Ordered, immutable collection of elements | (1, 2, 3, 4, 5)                | O(n)             | Access: O(1)                      |
+| Linear      | Array          | Collection of elements indexed by integers | [1, 2, 3, 4, 5,]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
+|             | Tuple          | Ordered, immutable collection of elements | (1, 2, 3, 4, 5,)                | O(n)             | Access: O(1)                      |
 |             | Namedtuple     | Extension of tuple with named fields     |namedtuple('Point', ['x', 'y'])| O(n)             | Access: O(1)                      |
-|             | List           | Ordered, mutable collection of elements  | [1, 2, 3, 4, 5]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
-|             | Stack          | LIFO access collection of elements       | [1, 2, 3, 4, 5] (top at 5)     | O(n)             | Push: O(1), Pop: O(1)             |
-|             | Queue          | FIFO access collection of elements       | [1, 2, 3, 4, 5] (front at 1)   | O(n)             | Enqueue: O(1), Dequeue: O(1)      |
-|             | Deque          | Double-ended queue for both ends access  | [1, 2, 3, 4, 5]                | O(n)             | Enqueue/Dequeue (both ends): O(1) |
-|             | Nested List    | List containing other lists as elements | [[1, 2], [3, 4, 5], [6, 7, 8, 9]] | O(m * n)      | Access: O(1)                      |
+|             | List           | Ordered, mutable collection of elements  | [1, 2, 3, 4, 5,]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
+|             | Stack          | LIFO access collection of elements       | [1, 2, 3, 4, 5,] (top at 5)     | O(n)             | Push: O(1), Pop: O(1)             |
+|             | Queue          | FIFO access collection of elements       | [1, 2, 3, 4, 5,] (front at 1)   | O(n)             | Enqueue: O(1), Dequeue: O(1)      |
+|             | Deque          | Double-ended queue for both ends access  | [1, 2, 3, 4, 5,]                | O(n)             | Enqueue/Dequeue (both ends): O(1) |
+|             | Nested List    | List containing other lists as elements | [[1, 2,], [3, 4, 5,], [6, 7, 8, 9,],] | O(m * n)      | Access: O(1)                      |
 | Non linear  | Tree           | Hierarchical data structure with nodes  | Binary Search Tree             | O(n)             | Search: O(log n), Insertion: O(log n), Deletion: O(log n) |
 |             | Graph          | Collection of nodes connected by edges | Social Network Graph           | O(V + E)         | Search: O(V + E), Insertion: O(1) |
 |             | Set            | Unordered collection of unique elements | {1, 2, 3, 4, 5}                | O(n)             | Membership Test: O(1)             |
