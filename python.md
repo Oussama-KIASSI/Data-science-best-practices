@@ -1,3 +1,5 @@
+
+
 # General
 1. **DRY Principle (Don’t Repeat Yourself)**:
     - Avoid creating similar scripts or functions.
@@ -101,7 +103,14 @@
 | Variable            | Snake Case                       | my_variable        |
 | Constant            | Screaming Snake Case             | MAX_VALUE          |
 
-# Data Structure
+
+
+# Data Structure Selector
+
+![SVG Image](./python_data_structure_selector.svg)
+
+
+# Data Structure Complexity
 | Category    | Data Structure | Description                              | Example                        | Space Complexity | Time Complexity                    |
 |-------------|----------------|------------------------------------------|--------------------------------|------------------|------------------------------------|
 | Linear      | Array          | Collection of elements indexed by integers | [1, 2, 3, 4, 5,]                | O(n)             | Access: O(1), Insertion: O(n), Deletion: O(n) |
