@@ -1,4 +1,4 @@
-# Python best practices
+![image](https://github.com/Oussama-KIASSI/Data-science-best-practices/assets/60352614/92a1b818-6ad2-4364-a741-37780c435165)# Python best practices
 This page offers a comprehensive list of Python programming best practices. It covers conventional coding principles, object-oriented and functional programming, data structures, and others. It provides guidelines, recommendations, and links to code examples to assist in crafting efficient, maintainable, scalable, and clean Python code. 
 
 
@@ -25,7 +25,7 @@ This page offers a comprehensive list of Python programming best practices. It c
     - Use `self` for instance methods' first argument.
     - Use `cls` for class methods' first argument.
 3. **Document Subclass Behavior**:
-    - If a class mostly inherits behavior from its superclass, document this in the docstring.
+    - Document this in the docstring if a class mostly inherits behavior from its superclass.
 
 
 ## Functional Programming
@@ -69,8 +69,8 @@ This page offers a comprehensive list of Python programming best practices. It c
 10. **Use Short Variable Names for Math-heavy Code**.
 11. **Use Single Character Names for Specific Cases**:
     - Counters or iterators (e.g., i, j, k, v, et al.).
-    - `e` as an exception identifier in try/except statements.
-    - `f` as a file handle in with statements.
+    - `e` as an exception identifier in `try`/`except` statements.
+    - `f` as a file handle in `with` statements.
 
 
 ## Comments & Docstrings
@@ -82,7 +82,7 @@ This page offers a comprehensive list of Python programming best practices. It c
 5. [**Use Args, Attributes, Returns, and Raises Sections**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L270-L287):
     - Args for functions and Attributes for classes to list each parameter by name followed by their description.
     - Returns to describe the semantics of the return value, including any type information not provided by the type annotation.
-    - Raises to list all exceptions that are relevant to the interface followed by a description.
+    - Raises to list all exceptions relevant to the interface followed by a description.
 
 
 ## Naming Conventions
