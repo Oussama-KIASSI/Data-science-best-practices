@@ -9,75 +9,75 @@ This page offers a comprehensive list of Python programming best practices. It c
 2. **KISS Principle (Keep It Simple and Stupid)**:
     - Simplify solutions and understand the limits of simplicity.
     - Complex problems may require complex solutions.
-3. **Correct Broken Code Immediately** to prevent future application failures.
-4. [**Use the Right Comparator**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L1-L27).
-5. [**Use Conditional Expressions for simple cases**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L30-L35).
-6. [**Annotate Python Code with Type Hints**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L38-L43).
-7. [**Avoid Using**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+` [**and**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+=` [**Operators for String Accumulation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) (as they may lead to quadratic running time).
-8. [**Avoid Mutable Global State**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L61-L84).
-9. [**Use Context Managers to securely manage external resources**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L87-L97).
-10. **Perform Autonomous Code Quality Check before Deployment**.
+3. **Correct broken code immediately** to prevent future application failures.
+4. [**Use the right comparator**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L1-L27).
+5. [**Use conditional expressions for simple cases**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L30-L35).
+6. [**Annotate Python code with type hints**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L38-L43).
+7. [**Avoid using**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+` [**and**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+=` [**operators for string accumulation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) (as they may lead to quadratic running time).
+8. [**Avoid mutable global state**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L61-L84).
+9. [**Use context managers to securely manage external resources**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L87-L97).
+10. **Perform autonomous code quality check before deployment**.
 
 
-## Object-oriented Programming
-1. **Use Object-oriented Programming When Necessary** (strong typing, inheritance, or a stateful system is required.)
-2. **Conventions for Methods**:
+## Object-Oriented Programming
+1. **Use Object-Oriented Programming when necessary** (strong typing, inheritance, or a stateful system is required.)
+2. **Conventions for methods**:
     - Use `self` for instance methods' first argument.
     - Use `cls` for class methods' first argument.
-3. **Document Subclass Behavior**:
+3. **Document subclass behavior**:
     - Document this in the docstring if a class mostly inherits behavior from its superclass.
 
 
 ## Functional Programming
-1. **Prefer** `def` **Over** `lambda` **Assignments**.
-2. **Be Consistent in `return` Statements**.
-3. [**Use Keyword Arguments Whenever Possible**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L100-L111).
-4. [**Use Immutable Default Arguments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L114C1-L131C34).
-5. **Prefer Small and Focused Functions**.
+1. **Prefer** `def` **over** `lambda` **assignments**.
+2. **Be consistent in `return` statements**.
+3. [**Use keyword arguments whenever possible**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L100-L111).
+4. [**Use immutable default arguments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L114C1-L131C34).
+5. **Prefer small and focused functions**.
 
 
 ## Environment Management
-1. **Group Imports at the Beginning**.
-2. **Sort Libraries for Readability**.
-3. **Avoid Importing Everything from a Package**.
-4. [**Use Absolute Import for Single Function Imports**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L134C1-L135C38).
-5. [**Use Relative Import for Long Absolute Paths**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L138-L143).
+1. **Group imports at the beginning**.
+2. **Sort libraries for readability**.
+3. **Avoid importing everything from a package**.
+4. [**Use absolute import for single function imports**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L134C1-L135C38).
+5. [**Use relative import for long absolute paths**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L138-L143).
 
 
 ## Error Handling
-1. **Handle Exceptions Within Functions/Methods**.
-2. **Catch Specific Exceptions**.
-3. **Limit the Try Clause to Minimum Necessary Code**.
-4. **Use Built-in Exception Classes**.
-5. **Use the Finally Clause for Cleanup**.
-6. **Ensure Error Messages Are Precise**.
+1. **Handle exceptions within functions/methods**.
+2. **Catch dpecific exceptions**.
+3. **Limit the** `try` **clause to minimum necessary code**.
+4. **Use built-in exception classes**.
+5. **Use the** `finally` **clause for cleanup**.
+6. **Ensure error messages are precise**.
 
 
 ## Logging
-1. **Use Logger Instead of Prints**.
+1. **Use** `Logger` **instead of** `print`.
 
 
 ## Readability
-1. **Use Grammatically Correct Variable Names**.
-2. **Handle Conflicting Names with Underscores**.
-3. **Keep One Statement per Line**.
-4. **Enclose Long Lines and Text** exceeding 79 characters (and 72 for docstrings/comments) in parenthesis and split.
-5. [**Use Blank Lines for Separation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L145-L206).
-6. [**Avoid Extraneous Whitespace**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L209-L253).
-8. **Use Trailing Comma for Tuples, Lists, and Imports**.
-9. [**Separate Blocks with Comments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L255-L267).
-10. **Use Short Variable Names for Math-heavy Code**.
-11. **Use Single Character Names for Specific Cases**:
+1. **Use grammatically correct variable names**.
+2. **Handle conflicting names with underscores**.
+3. **Keep one statement per line**.
+4. **Enclose long lines and text** exceeding 79 characters (and 72 for docstrings/comments) in parenthesis and split.
+5. [**Use blank lines for separation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L145-L206).
+6. [**Avoid extraneous whitespace**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L209-L253).
+8. **Use trailing comma for tuples, lists, and imports**.
+9. [**Separate blocks with comments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L255-L267).
+10. **Use short variable names for math-heavy code**.
+11. **Use single character names for specific cases**:
     - Counters or iterators (e.g., i, j, k, v, et al.).
     - `e` as an exception identifier in `try`/`except` statements.
     - `f` as a file handle in `with` statements.
 
 
 ## Comments & Docstrings
-1. **Document Modules, Functions, Classes, and Methods**.
-2. **Avoid Obvious Comments**.
-3. **Update Comments with Code Changes**.
-4. **Format Docstrings Properly**:
+1. **Document modules, functions, classes, and methods**.
+2. **Avoid obvious comments**.
+3. **Update comments with code changes**.
+4. **Format docstrings properly**:
     - Put the `"""` that ends a multiline docstring should be on a line by itself.
 5. [**Use Args, Attributes, Returns, and Raises Sections**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L270-L287):
     - Args for functions and Attributes for classes to list each parameter by name followed by their description.
