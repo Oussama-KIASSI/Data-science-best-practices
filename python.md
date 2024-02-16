@@ -30,7 +30,7 @@ This page offers a comprehensive list of Python programming best practices. It c
 
 ## Functional Programming
 1. **Prefer** `def` **Over** `lambda` **Assignments**.
-2. **Be Consistent in Return Statements**.
+2. **Be Consistent in `return` Statements**.
 3. [**Use Keyword Arguments Whenever Possible**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L100-L111).
 4. [**Use Immutable Default Arguments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L114C1-L131C34).
 5. **Prefer Small and Focused Functions**.
