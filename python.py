@@ -156,7 +156,7 @@ def function_two():
     pass
 
 
-## Surround method definitions inside classes by single blank lines.
+## Surround method definitions inside classes with single blank lines.
 class MyClass:
     def method_one(self):
         pass
@@ -165,7 +165,7 @@ class MyClass:
         pass
 
 
-## Surround groups of related functions by single blank lines.
+## Surround groups of related functions with single blank lines.
 def group_one_function_one():
     pass
 
@@ -177,7 +177,7 @@ def group_two_function_one():
     pass
 
 
-## Surround groups of similar category libraries by single blank lines.
+## Surround groups of similar category libraries with single blank lines.
 # Group of math-related functions
 def math_function_one():
     pass
@@ -194,7 +194,7 @@ def string_function_two():
     pass
 
 
-## Surround logical sections inside functions by single blank lines.
+## Surround logical sections inside functions with single blank lines.
 def my_function():
     # Logical section one
     x = 1
