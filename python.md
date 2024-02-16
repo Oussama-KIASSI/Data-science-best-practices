@@ -30,7 +30,7 @@ This page offers a comprehensive list of Python programming best practices. It c
 
 ## Functional Programming
 1. **Prefer** `def` **over** `lambda` **assignments**.
-2. **Be consistent in `return` statements**.
+2. **Be consistent in** `return` **statements**.
 3. [**Use keyword arguments whenever possible**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L100-L111).
 4. [**Use immutable default arguments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L114C1-L131C34).
 5. **Prefer small and focused functions**.
@@ -40,14 +40,14 @@ This page offers a comprehensive list of Python programming best practices. It c
 1. **Group imports at the beginning**.
 2. **Sort libraries for readability**.
 3. **Avoid importing everything from a package**.
-4. [**Use absolute import for single function imports**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L134C1-L135C38).
+4. [**Use absolute import for single-function imports**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L134C1-L135C38).
 5. [**Use relative import for long absolute paths**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L138-L143).
 
 
 ## Error Handling
 1. **Handle exceptions within functions/methods**.
 2. **Catch dpecific exceptions**.
-3. **Limit the** `try` **clause to minimum necessary code**.
+3. **Limit the** `try` **clause to the minimum necessary code**.
 4. **Use built-in exception classes**.
 5. **Use the** `finally` **clause for cleanup**.
 6. **Ensure error messages are precise**.
@@ -64,7 +64,7 @@ This page offers a comprehensive list of Python programming best practices. It c
 4. **Enclose long lines and text** exceeding 79 characters (and 72 for docstrings/comments) in parenthesis and split.
 5. [**Use blank lines for separation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L145-L206).
 6. [**Avoid extraneous whitespace**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L209-L253).
-8. **Use trailing comma for tuples, lists, and imports**.
+8. **Use trailing commas for tuples, lists, and imports**.
 9. [**Separate blocks with comments**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L255-L267).
 10. **Use short variable names for math-heavy code**.
 11. **Use single character names for specific cases**:
