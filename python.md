@@ -1,4 +1,4 @@
-![image](https://github.com/Oussama-KIASSI/Data-science-best-practices/assets/60352614/92a1b818-6ad2-4364-a741-37780c435165)# Python best practices
+# Python best practices
 This page offers a comprehensive list of Python programming best practices. It covers conventional coding principles, object-oriented and functional programming, data structures, and others. It provides guidelines, recommendations, and links to code examples to assist in crafting efficient, maintainable, scalable, and clean Python code. 
 
 
