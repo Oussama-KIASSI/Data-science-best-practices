@@ -14,9 +14,9 @@ This page offers a comprehensive list of Python programming best practices. It c
 5. [**Use conditional expressions for simple cases**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L30-L35).
 6. [**Annotate Python code with type hints**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L38-L43).
 7. [**Avoid using**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+` [**and**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) `+=` [**operators for string accumulation**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L46-L58) (as they may lead to quadratic running time).
-8. [**Avoid mutable global state**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L61-L84).
+8. [**Avoid mutable global states**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L61-L84).
 9. [**Use context managers to securely manage external resources**](https://github.com/Oussama-KIASSI/Data-science-best-practices/blob/a7fb439062930c6f8c2ee4b0fb56468a89d8c8c3/python.py#L87-L97).
-10. **Perform autonomous code quality check before deployment**.
+10. **Perform autonomous code quality checks before deployment**.
 
 
 ## Object-Oriented Programming
