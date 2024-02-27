@@ -1,5 +1,5 @@
 # MLOps best practices
-This page encompasses guidelines for DataOps, DevOps, and ModelOps. In DataOps, focus lies on operationalizing data through effective data management and reliable data pipelines. DevOps emphasizes automation and code quality. Meanwhile, ModelOps addresses aspects like model building, lifecycle management, and infrastructure design. Together, these principles aim to elevate reliability, maintainability, and scalability of ML assets.
+This page encompasses guidelines for DataOps, DevOps, and ModelOps. In DataOps, the focus lies on operationalizing data through effective data management and reliable data pipelines. DevOps emphasizes automation and code quality. Meanwhile, ModelOps addresses aspects like model building, lifecycle management, and infrastructure design. Together, these principles aim to elevate the reliability, maintainability, and scalability of ML assets.
 
 ## DataOps
 1. **Document data structures and transformations**: Enhance comprehension and foster knowledge sharing.
@@ -23,7 +23,7 @@ This page encompasses guidelines for DataOps, DevOps, and ModelOps. In DataOps, 
 3. **Standardize processes for model rollback**: Ensure the reliability of the overall ML system.
 4. **Maintain centralized model registry**: Store and manage trained models, along with associated metadata and performance metrics.
 5. **Continuous performance monitoring of deployed models**: Monitor accuracy, latency, and resource usage.
-6. **Implement alerting system**: Promptly detect anomalies or deviations in model behavior and trigger appropriate actions.
+6. **Implement an alerting system**: Promptly detect anomalies or deviations in model behavior and trigger appropriate actions.
 7. **Establish and review retraining mechanisms**: Based on predefined criteria such as data drift or performance degradation.
 8. **Employ techniques for model interpretability**: Comprehend and interpret the behavior and decisions of ML models for transparency and regulatory compliance.
 9. **Design robust model serving infrastructure**: Capable of handling increased traffic and scaling horizontally or vertically as required.
