@@ -46,7 +46,7 @@ This page offers a comprehensive list of Python programming best practices. It c
 
 ## Error Handling
 1. **Handle exceptions within functions/methods**.
-2. **Catch dpecific exceptions**.
+2. **Catch specific exceptions**.
 3. **Limit the** `try` **clause to the minimum necessary code**.
 4. **Use built-in exception classes**.
 5. **Use the** `finally` **clause for cleanup**.
